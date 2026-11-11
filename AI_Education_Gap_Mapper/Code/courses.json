@@ -1,0 +1,457 @@
+[
+  {
+    "id": "course_ai_intro",
+    "title": "Introduction to Artificial Intelligence",
+    "code": "CS-401",
+    "description": "This course introduces the foundational concepts of Artificial Intelligence. Topics include search techniques, heuristics, adversarial search (game playing), constraint satisfaction, knowledge representation, first-order logic, and classical planning. Students will learn the history of AI and implement search algorithms in Python.",
+    "syllabus": [
+      "Introduction to AI and Intelligent Agents",
+      "Uninformed Search Strategies (BFS, DFS, Uniform Cost Search)",
+      "Informed Search Strategies (A* Search, Heuristics)",
+      "Adversarial Search (Minimax, Alpha-Beta Pruning)",
+      "Constraint Satisfaction Problems (CSPs)",
+      "Logical Agents and Propositional Logic",
+      "First-Order Logic and Inference",
+      "Classical Planning and PDDL",
+      "Probability and Uncertainty in AI"
+    ],
+    "skills": ["Artificial Intelligence", "Python", "Search Algorithms", "Logic", "Problem Solving", "Heuristics"]
+  },
+  {
+    "id": "course_ml_basics",
+    "title": "Introduction to Machine Learning",
+    "code": "CS-415",
+    "description": "An introduction to machine learning theory and practice. The course covers supervised learning (linear regression, logistic regression, decision trees, support vector machines, k-nearest neighbors) and unsupervised learning (k-means clustering, PCA). Students will use Python and standard libraries like Scikit-Learn and Pandas to build and evaluate models.",
+    "syllabus": [
+      "Introduction to Supervised and Unsupervised Learning",
+      "Linear Regression and Gradient Descent",
+      "Logistic Regression and Classification Metrics",
+      "Decision Trees and Information Gain",
+      "Support Vector Machines (SVM)",
+      "Overfitting, Underfitting, and Regularization (L1/L2)",
+      "Dimensionality Reduction (PCA)",
+      "Clustering Algorithms (K-Means, Hierarchical)",
+      "Model Evaluation (Cross-Validation, Precision, Recall, F1-Score)"
+    ],
+    "skills": ["Machine Learning", "Python", "Scikit-Learn", "Pandas", "Linear Regression", "Logistic Regression", "Decision Trees", "Support Vector Machines", "Clustering", "Principal Component Analysis", "Supervised Learning", "Unsupervised Learning", "Model Evaluation"]
+  },
+  {
+    "id": "course_deep_learning",
+    "title": "Deep Learning & Neural Networks",
+    "code": "CS-520",
+    "description": "Advanced course focusing on deep neural architectures. Topics include multi-layer perceptrons, backpropagation, convolutional neural networks (CNNs) for image processing, recurrent neural networks (RNNs) and LSTMs for sequential data, and generative adversarial networks (GANs). Students will implement deep networks using PyTorch.",
+    "syllabus": [
+      "Introduction to Deep Learning and Perceptrons",
+      "Multi-Layer Perceptrons and Activation Functions",
+      "Optimization Algorithms (SGD, Adam, Backpropagation)",
+      "Convolutional Neural Networks (CNNs) for Computer Vision",
+      "Recurrent Neural Networks (RNNs) and LSTMs",
+      "Generative Adversarial Networks (GANs)",
+      "Autoencoders and Dimensionality Reduction",
+      "Introduction to PyTorch and Tensor Operations",
+      "Training Deep Networks on GPUs"
+    ],
+    "skills": ["Deep Learning", "Neural Networks", "PyTorch", "Convolutional Neural Networks", "Recurrent Neural Networks", "Backpropagation", "Generative Adversarial Networks", "GPU Computing"]
+  },
+  {
+    "id": "course_nlp",
+    "title": "Natural Language Processing",
+    "code": "CS-480",
+    "description": "This course covers algorithms and models for parsing, understanding, and generating natural language. Topics include word embeddings (Word2Vec, GloVe), part-of-speech tagging, sequence-to-sequence models, attention mechanisms, and modern transformers (BERT, GPT). Practical work will involve HuggingFace and NLTK in Python.",
+    "syllabus": [
+      "Text Preprocessing (Tokenization, Stemming, Lemmatization)",
+      "Language Modeling and N-grams",
+      "Word Embeddings (Word2Vec, GloVe, FastText)",
+      "Sequence Tagging and POS Tagging",
+      "Sequence-to-Sequence Models and Attention",
+      "The Transformer Architecture (BERT, GPT)",
+      "Text Classification and Sentiment Analysis",
+      "Machine Translation and Text Generation",
+      "Using HuggingFace Transformers Library"
+    ],
+    "skills": ["Natural Language Processing", "NLP", "Python", "HuggingFace", "NLTK", "Word Embeddings", "Transformers", "BERT", "GPT", "Sentiment Analysis", "Text Classification"]
+  },
+  {
+    "id": "course_cv",
+    "title": "Computer Vision",
+    "code": "CS-482",
+    "description": "An introduction to processing and analyzing digital images. The course covers image filtering, edge detection, feature extraction (SIFT, HOG), camera calibration, image classification, object detection (YOLO, SSD), and semantic segmentation. Practical assignments are implemented in Python using OpenCV and PyTorch.",
+    "syllabus": [
+      "Image Basics and Digital Image Representation",
+      "Image Filtering, Smoothing, and Edge Detection (Canny)",
+      "Feature Extraction and Matching (SIFT, SURF, ORB)",
+      "Image Segmentation and Clustering",
+      "Introduction to OpenCV in Python",
+      "Convolutional Neural Networks for Image Classification",
+      "Object Detection Architectures (YOLO, Faster R-CNN)",
+      "Semantic Segmentation and Instance Segmentation",
+      "Visual SLAM and 3D Vision"
+    ],
+    "skills": ["Computer Vision", "OpenCV", "Python", "PyTorch", "Image Processing", "Object Detection", "Image Classification", "Feature Extraction", "CNN"]
+  },
+  {
+    "id": "course_data_eng",
+    "title": "Data Engineering & Infrastructure",
+    "code": "CS-350",
+    "description": "A course covering the principles and practices of building scalable data systems. Topics include relational databases (SQL), NoSQL databases, data pipelines, ETL processes, and big data computing tools like Apache Spark and Hadoop. Students will learn how to design data architectures that support machine learning pipelines.",
+    "syllabus": [
+      "Introduction to Data Engineering",
+      "Relational Database Design and Complex SQL Queries",
+      "NoSQL Databases (MongoDB, Cassandra)",
+      "Data Warehousing Concepts",
+      "ETL (Extract, Transform, Load) Pipeline Design",
+      "Distributed Computing with Apache Hadoop",
+      "Large-scale Data Processing with Apache Spark",
+      "Data Streaming (Apache Kafka)",
+      "MLOps and Deploying Data Pipelines"
+    ],
+    "skills": ["Data Engineering", "SQL", "NoSQL", "ETL", "Apache Spark", "Hadoop", "Apache Kafka", "Databases", "Data Pipelines", "MLOps"]
+  },
+  {
+    "id": "course_python_dev",
+    "title": "Advanced Python & Software Engineering",
+    "code": "CS-202",
+    "description": "This course covers software engineering principles with Python. Topics include object-oriented programming (OOP), design patterns, unit testing, version control with Git, containerization using Docker, CI/CD pipelines, and writing clean, maintainable code. Students will build full-stack web applications.",
+    "syllabus": [
+      "Advanced Python Concepts (Generators, Decorators, Context Managers)",
+      "Object-Oriented Programming (OOP) in Python",
+      "Software Design Patterns",
+      "Unit Testing and Test-Driven Development (TDD)",
+      "Version Control with Git and GitHub",
+      "Containerization with Docker",
+      "CI/CD Principles and Automated Testing",
+      "Building RESTful APIs with Flask/FastAPI",
+      "Agile Software Development Methodologies"
+    ],
+    "skills": ["Python", "Software Engineering", "OOP", "Git", "Docker", "Unit Testing", "APIs", "RESTful APIs", "Flask", "Agile"]
+  },
+  {
+    "id": "course_cloud_devops",
+    "title": "Cloud Computing & DevOps",
+    "code": "CS-450",
+    "description": "Comprehensive course on cloud platforms and DevOps practices. Covers AWS, Azure, and GCP services, container orchestration with Kubernetes, infrastructure as code (Terraform), CI/CD pipelines (Jenkins, GitHub Actions), monitoring and logging, and cloud security best practices.",
+    "syllabus": [
+      "Introduction to Cloud Computing and Service Models (IaaS, PaaS, SaaS)",
+      "AWS Core Services (EC2, S3, RDS, Lambda, VPC)",
+      "Azure Fundamentals and Key Services",
+      "Google Cloud Platform Overview",
+      "Container Orchestration with Kubernetes",
+      "Infrastructure as Code with Terraform and CloudFormation",
+      "CI/CD Pipelines with Jenkins, GitHub Actions, and GitLab CI",
+      "Configuration Management with Ansible and Chef",
+      "Monitoring and Logging (Prometheus, Grafana, ELK Stack)",
+      "Cloud Security and Compliance Best Practices"
+    ],
+    "skills": ["AWS", "Azure", "GCP", "Kubernetes", "Docker", "DevOps", "CI/CD", "Jenkins", "Terraform", "Cloud Computing", "Infrastructure as Code", "Linux", "Monitoring", "Cloud Security"]
+  },
+  {
+    "id": "course_data_analytics",
+    "title": "Data Analytics & Visualization",
+    "code": "CS-320",
+    "description": "Course focused on data analysis techniques and visualization tools. Covers statistical analysis, data cleaning and transformation, SQL for data analysis, Excel for business analytics, and visualization tools like Tableau and Power BI. Students will learn to derive insights from data and create compelling dashboards.",
+    "syllabus": [
+      "Introduction to Data Analytics and the Data Analysis Lifecycle",
+      "Statistical Analysis and Hypothesis Testing",
+      "Data Cleaning and Preprocessing Techniques",
+      "Advanced SQL for Data Analysis (Window Functions, CTEs, Subqueries)",
+      "Excel for Business Analytics (Pivot Tables, VLOOKUP, Macros)",
+      "Data Visualization Principles and Best Practices",
+      "Tableau Fundamentals and Dashboard Creation",
+      "Power BI for Business Intelligence and Reporting",
+      "Exploratory Data Analysis (EDA) with Python",
+      "Communicating Data Insights and Storytelling"
+    ],
+    "skills": ["Data Analysis", "SQL", "Tableau", "Power BI", "Excel", "Data Visualization", "Statistics", "Python", "Reporting", "Business Intelligence", "Exploratory Data Analysis"]
+  },
+  {
+    "id": "course_fullstack_web",
+    "title": "Full Stack Web Development",
+    "code": "CS-310",
+    "description": "Complete full-stack web development course. Covers front-end development with HTML, CSS, JavaScript, React, and Angular, back-end development with Node.js and Python, database integration (SQL and NoSQL), RESTful API design, authentication, and deployment strategies.",
+    "syllabus": [
+      "HTML5, CSS3, and Modern JavaScript (ES6+)",
+      "Frontend Frameworks: React and Angular",
+      "State Management (Redux, NgRx)",
+      "Backend Development with Node.js and Express",
+      "Python Web Development with Flask/FastAPI/Django",
+      "RESTful API Design and Implementation",
+      "Database Design: SQL (PostgreSQL, MySQL) and NoSQL (MongoDB)",
+      "Authentication and Authorization (JWT, OAuth)",
+      "Testing Frontend and Backend Applications",
+      "Deployment and Hosting (Vercel, Netlify, AWS)"
+    ],
+    "skills": ["JavaScript", "React", "Angular", "Node.js", "HTML", "CSS", "SQL", "NoSQL", "MongoDB", "PostgreSQL", "RESTful APIs", "TypeScript", "Full Stack Development", "APIs", "Authentication"]
+  },
+  {
+    "id": "course_mobile_dev",
+    "title": "Mobile Application Development",
+    "code": "CS-410",
+    "description": "Course on mobile app development for iOS and Android platforms. Covers native development with Swift (iOS) and Kotlin (Android), cross-platform development with React Native and Flutter, mobile UI/UX design, app architecture patterns, and app store deployment.",
+    "syllabus": [
+      "Mobile Development Fundamentals and Platform Overview",
+      "iOS Development with Swift and SwiftUI",
+      "Android Development with Kotlin and Jetpack Compose",
+      "Cross-Platform Development with React Native",
+      "Cross-Platform Development with Flutter",
+      "Mobile UI/UX Design Principles",
+      "Mobile App Architecture Patterns (MVVM, MVC)",
+      "State Management in Mobile Applications",
+      "Mobile Testing and Debugging",
+      "App Store Deployment and Maintenance"
+    ],
+    "skills": ["Mobile Development", "iOS", "Android", "Swift", "Kotlin", "React Native", "Flutter", "Mobile UI/UX", "App Development", "Cross-Platform Development"]
+  },
+  {
+    "id": "course_database",
+    "title": "Database Management Systems",
+    "code": "CS-330",
+    "description": "Comprehensive course on database design, implementation, and management. Covers relational database theory, SQL programming, NoSQL databases, database normalization, transaction management, indexing, query optimization, and distributed databases.",
+    "syllabus": [
+      "Introduction to Database Management Systems",
+      "Relational Database Design and ER Modeling",
+      "SQL Programming (DDL, DML, DCL, TCL)",
+      "Database Normalization and Schema Design",
+      "Transaction Management and Concurrency Control",
+      "Indexing and Query Optimization",
+      "NoSQL Databases: Document (MongoDB), Key-Value, Column-Family, Graph",
+      "Stored Procedures and Triggers",
+      "Database Security and Backup Strategies",
+      "Distributed Databases and Big Data Storage"
+    ],
+    "skills": ["SQL", "NoSQL", "MongoDB", "Database Design", "PostgreSQL", "MySQL", "Database Management", "Query Optimization", "Data Modeling", "Transactions", "Indexing"]
+  },
+  {
+    "id": "course_algorithms",
+    "title": "Algorithms & Data Structures",
+    "code": "CS-201",
+    "description": "Fundamental course on algorithms and data structures. Covers arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, searching algorithms, dynamic programming, greedy algorithms, and algorithm complexity analysis.",
+    "syllabus": [
+      "Introduction to Algorithms and Complexity Analysis (Big O)",
+      "Arrays, Linked Lists, Stacks, and Queues",
+      "Trees and Binary Search Trees",
+      "Heaps and Priority Queues",
+      "Hash Tables and Collision Resolution",
+      "Graphs and Graph Algorithms (BFS, DFS, Dijkstra)",
+      "Sorting Algorithms (Merge Sort, Quick Sort, Heap Sort)",
+      "Searching Algorithms (Binary Search, Hash-based Search)",
+      "Dynamic Programming and Memoization",
+      "Greedy Algorithms and Optimization Problems"
+    ],
+    "skills": ["Algorithms", "Data Structures", "Problem Solving", "Big O Notation", "Sorting", "Searching", "Dynamic Programming", "Graph Algorithms", "Tree Structures", "Hash Tables"]
+  },
+  {
+    "id": "course_mlops",
+    "title": "MLOps & Machine Learning Engineering",
+    "code": "CS-530",
+    "description": "Advanced course on Machine Learning Operations. Covers ML model lifecycle management, model deployment and serving, ML pipelines (Apache Airflow, Kubeflow), model monitoring and drift detection, A/B testing for ML models, feature stores, and scalable ML infrastructure.",
+    "syllabus": [
+      "Introduction to MLOps and ML Engineering",
+      "ML Model Lifecycle Management",
+      "Model Deployment and Serving (TensorFlow Serving, TorchServe)",
+      "Building ML Pipelines with Apache Airflow and Kubeflow",
+      "Feature Engineering and Feature Stores",
+      "Model Monitoring and Drift Detection",
+      "A/B Testing for Machine Learning Models",
+      "Experiment Tracking (MLflow, Weights & Biases)",
+      "Scalable ML Infrastructure on Cloud Platforms",
+      "Ethical AI and Model Governance"
+    ],
+    "skills": ["MLOps", "Machine Learning Engineering", "Model Deployment", "ML Pipelines", "Apache Airflow", "Kubeflow", "MLflow", "Model Monitoring", "Feature Engineering", "A/B Testing", "Kubernetes", "Docker", "Cloud Computing"]
+  },
+  {
+    "id": "course_cybersecurity",
+    "title": "Cybersecurity Fundamentals",
+    "code": "CS-440",
+    "description": "Introduction to cybersecurity principles and practices. Covers network security, cryptography, secure coding practices, vulnerability assessment, penetration testing basics, security compliance, and incident response.",
+    "syllabus": [
+      "Introduction to Cybersecurity and Security Principles",
+      "Network Security and Firewalls",
+      "Cryptography and Encryption",
+      "Secure Coding Practices",
+      "Web Application Security (OWASP Top 10)",
+      "Vulnerability Assessment and Penetration Testing Basics",
+      "Identity and Access Management (IAM)",
+      "Security Compliance and Standards (NIST, ISO)",
+      "Incident Response and Forensics",
+      "Security Architecture and Defense in Depth"
+    ],
+    "skills": ["Cybersecurity", "Network Security", "Cryptography", "Secure Coding", "Penetration Testing", "Vulnerability Assessment", "IAM", "Security Compliance", "Incident Response", "OWASP"]
+  },
+  {
+    "id": "course_reinforcement_learning",
+    "title": "Reinforcement Learning",
+    "code": "CS-540",
+    "description": "Advanced course on reinforcement learning algorithms. Covers Markov Decision Processes, Q-Learning, Deep Q-Networks, Policy Gradients, Actor-Critic methods, multi-agent reinforcement learning, and applications in robotics, gaming, and finance.",
+    "syllabus": [
+      "Introduction to Reinforcement Learning and MDPs",
+      "Markov Decision Processes and Bellman Equations",
+      "Value-Based Methods: Q-Learning and SARSA",
+      "Deep Q-Networks (DQN) and Extensions",
+      "Policy Gradient Methods (REINFORCE, A3C)",
+      "Actor-Critic Algorithms and Proximal Policy Optimization",
+      "Exploration vs. Exploitation Strategies",
+      "Multi-Agent Reinforcement Learning",
+      "Applications in Robotics, Gaming, and Finance",
+      "Advanced Topics: Hierarchical RL and Meta-RL"
+    ],
+    "skills": ["Reinforcement Learning", "Deep Learning", "Q-Learning", "Policy Gradients", "Actor-Critic", "Markov Decision Processes", "PyTorch", "TensorFlow", "Machine Learning", "Python"]
+  },
+  {
+    "id": "course_bigdata",
+    "title": "Big Data & Distributed Computing",
+    "code": "CS-460",
+    "description": "Course on big data technologies and distributed computing. Covers Hadoop ecosystem (HDFS, MapReduce, YARN), Apache Spark for big data processing, stream processing with Kafka and Flink, data warehousing with Hive, and distributed database systems.",
+    "syllabus": [
+      "Introduction to Big Data and Distributed Computing",
+      "Hadoop Ecosystem: HDFS, MapReduce, and YARN",
+      "Apache Spark Core and RDDs",
+      "Spark SQL and DataFrames",
+      "Spark MLlib for Machine Learning",
+      "Stream Processing with Apache Kafka and Apache Flink",
+      "Data Warehousing with Apache Hive",
+      "NoSQL Distributed Databases (Cassandra, HBase)",
+      "Big Data Processing Patterns and Optimization",
+      "Cloud-Based Big Data Services (AWS EMR, Google Dataproc)"
+    ],
+    "skills": ["Apache Spark", "Hadoop", "Big Data", "Distributed Computing", "Kafka", "Flink", "Hive", "HDFS", "MapReduce", "Data Engineering", "Scala", "Python"]
+  }
+  ,
+  {
+    "id": "course_genai_intro",
+    "title": "Generative AI & Prompt Engineering",
+    "code": "CS-625",
+    "description": "An applied introduction to generative models, prompt engineering, and production considerations for LLM-driven systems. Students learn prompt design, prompt tuning, safety, evaluation, and tools for working with large language models.",
+    "syllabus": [
+      "Introduction to Generative Models and LLMs",
+      "Prompt Engineering Principles and Patterns",
+      "Chain-of-Thought and Reasoning Prompts",
+      "Fine-tuning, LoRA, and Parameter-Efficient Tuning",
+      "Evaluation Metrics for Generated Text",
+      "Safety, Alignment, and Content Moderation",
+      "Prompting for Retrieval-Augmented Generation (RAG)",
+      "APIs and Practical Integration (OpenAI, HuggingFace)",
+      "Hands-on Projects: Chatbots, Summarization, Code Generation"
+    ],
+    "skills": ["Generative AI", "Prompt Engineering", "LLMs", "RAG", "Fine-tuning", "Evaluation", "APIs", "HuggingFace"]
+  },
+  {
+    "id": "course_genai_prod",
+    "title": "Applied GenAI Systems",
+    "code": "CS-626",
+    "description": "Engineering and deploying GenAI systems at scale. Covers retrieval systems, vector databases, prompt orchestration, latency optimization, cost control, and observability for LLM services.",
+    "syllabus": [
+      "Vector Search and Similarity Retrieval",
+      "Embedding Models and Vector Databases (Milvus, Pinecone)",
+      "Retrieval-Augmented Generation Pipelines",
+      "Prompt Orchestration and Workflows",
+      "Latency and Cost Optimization Strategies",
+      "Monitoring, Logging, and Observability for LLMs",
+      "Security, Privacy, and Data Handling",
+      "Case Studies: Assistants, Summarizers, Code Helpers"
+    ],
+    "skills": ["RAG", "Embeddings", "Vector Databases", "Retrieval", "Latency Optimization", "LLM Deployment", "Observability"]
+  },
+  {
+    "id": "course_llm_systems",
+    "title": "LLM Systems & Scaling",
+    "code": "CS-627",
+    "description": "Systems-level course on infrastructure for large language models: model serving, batching, sharding, GPU orchestration, model parallelism, and cost-efficient inference.",
+    "syllabus": [
+      "Model Serving Architectures",
+      "Batching, Quantization, and Model Compression",
+      "Model Parallelism and Sharding Strategies",
+      "GPU Scheduling and Orchestration",
+      "Serving at Low Latency and High Throughput",
+      "Benchmarking and Performance Profiling",
+      "Cost Models for LLM Inference"
+    ],
+    "skills": ["Model Serving", "Quantization", "GPU", "Model Parallelism", "Inference", "Benchmarking"]
+  },
+  {
+    "id": "course_ai_ethics",
+    "title": "Ethics, Governance, and Responsible AI",
+    "code": "CS-601",
+    "description": "Explores ethical, legal, and governance issues in AI, including fairness, transparency, privacy, and regulation. Practical frameworks for responsible AI development are discussed.",
+    "syllabus": [
+      "Foundations of AI Ethics",
+      "Fairness and Bias Mitigation",
+      "Explainability and Interpretability",
+      "Privacy-preserving ML (Differential Privacy)",
+      "AI Governance Frameworks and Policies",
+      "Regulation and Legal Considerations",
+      "Responsible Data Practices and Consent"
+    ],
+    "skills": ["AI Ethics", "Fairness", "Explainability", "Privacy", "Governance", "Regulation"]
+  }
+  ,
+  {
+    "id": "course_adv_nlp",
+    "title": "Advanced NLP with Transformers",
+    "code": "CS-682",
+    "description": "In-depth study of transformer architectures and applications in NLP: fine-tuning, transfer learning, multilingual models, and evaluation for production systems.",
+    "syllabus": [
+      "Transformer Architecture Deep Dive",
+      "Fine-tuning and Transfer Learning",
+      "Multilingual and Cross-lingual Models",
+      "Efficient Transformer Variants (Longformer, Reformer)",
+      "Evaluation and Metrics for Generation"
+    ],
+    "skills": ["Transformers", "Fine-tuning", "HuggingFace", "NLP", "Evaluation", "Transfer Learning"]
+  },
+  {
+    "id": "course_time_series",
+    "title": "Time Series Analysis and Forecasting",
+    "code": "CS-610",
+    "description": "Covers statistical and machine learning methods for time series forecasting including ARIMA, state-space models, and deep learning approaches.",
+    "syllabus": [
+      "Exploratory Analysis of Time Series",
+      "ARIMA and SARIMA Models",
+      "State-Space and Kalman Filters",
+      "Deep Learning for Time Series (RNNs, LSTMs)",
+      "Evaluation and Backtesting"
+    ],
+    "skills": ["Time Series", "ARIMA", "Forecasting", "LSTM", "RNN", "Backtesting", "Statistical Modeling"]
+  },
+  {
+    "id": "course_graph_ml",
+    "title": "Graph Machine Learning",
+    "code": "CS-645",
+    "description": "Introduction to graph-structured data and models: graph embeddings, GNNs, node classification, and link prediction for knowledge graphs and social networks.",
+    "syllabus": [
+      "Graph Theory Basics",
+      "Graph Embeddings and Node2Vec",
+      "Graph Neural Networks (GCN, GAT)",
+      "Node and Edge Prediction Tasks",
+      "Applications: Knowledge Graphs and Social Networks"
+    ],
+    "skills": ["Graph ML", "GNN", "Node Embeddings", "Link Prediction", "Network Analysis"]
+  },
+  {
+    "id": "course_stat_learning",
+    "title": "Statistical Learning",
+    "code": "CS-602",
+    "description": "Covers foundational statistical learning methods, regularization, generalized linear models, and statistical inference for predictive modeling.",
+    "syllabus": [
+      "Linear Models and GLMs",
+      "Regularization (Ridge, Lasso)",
+      "Bias-Variance Tradeoff",
+      "Model Selection and Cross-Validation",
+      "Introduction to Ensemble Methods"
+    ],
+    "skills": ["Statistical Learning", "Regression", "Ridge", "Lasso", "Cross-Validation", "Model Selection"]
+  },
+  {
+    "id": "course_optim_ml",
+    "title": "Optimization Methods for Machine Learning",
+    "code": "CS-690",
+    "description": "Focus on optimization techniques used in ML: convex optimization, stochastic gradient methods, second-order methods, and practical optimization for deep learning.",
+    "syllabus": [
+      "Convex Optimization Basics",
+      "Gradient-Based Methods and SGD Variants",
+      "Second-Order Methods and Quasi-Newton",
+      "Optimization for Deep Networks",
+      "Hyperparameter Tuning and Schedules"
+    ],
+    "skills": ["Optimization", "SGD", "Adam", "Convex Optimization", "Hyperparameter Tuning"]
+  }
+]

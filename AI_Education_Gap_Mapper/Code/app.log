@@ -1,0 +1,5 @@
+nohup: ignoring input
+Starting AI Education Gap Mapper App...
+Relaunching server within virtual environment: .venv/bin/python
+Model and vectorizer loaded successfully.
+Domain skills database loaded. Total unique skills: 200

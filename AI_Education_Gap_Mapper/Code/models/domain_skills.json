@@ -1,0 +1,1766 @@
+{
+    "Software Engineering & Infrastructure": [
+        {
+            "skill": "Python",
+            "count": 4556,
+            "percentage": 44.97
+        },
+        {
+            "skill": "Java",
+            "count": 4207,
+            "percentage": 41.53
+        },
+        {
+            "skill": "AWS",
+            "count": 3383,
+            "percentage": 33.39
+        },
+        {
+            "skill": "SQL",
+            "count": 2845,
+            "percentage": 28.08
+        },
+        {
+            "skill": "Software Engineering",
+            "count": 2719,
+            "percentage": 26.84
+        },
+        {
+            "skill": "Kubernetes",
+            "count": 2459,
+            "percentage": 24.27
+        },
+        {
+            "skill": "Docker",
+            "count": 2451,
+            "percentage": 24.19
+        },
+        {
+            "skill": "Agile",
+            "count": 2127,
+            "percentage": 20.99
+        },
+        {
+            "skill": "JavaScript",
+            "count": 2081,
+            "percentage": 20.54
+        },
+        {
+            "skill": "C++",
+            "count": 1836,
+            "percentage": 18.12
+        },
+        {
+            "skill": "Go",
+            "count": 1737,
+            "percentage": 17.15
+        },
+        {
+            "skill": "Communication",
+            "count": 1518,
+            "percentage": 14.98
+        },
+        {
+            "skill": "Software Development",
+            "count": 1446,
+            "percentage": 14.27
+        },
+        {
+            "skill": "Linux",
+            "count": 1424,
+            "percentage": 14.06
+        },
+        {
+            "skill": "React",
+            "count": 1240,
+            "percentage": 12.24
+        },
+        {
+            "skill": "TypeScript",
+            "count": 1184,
+            "percentage": 11.69
+        },
+        {
+            "skill": "Git",
+            "count": 1142,
+            "percentage": 11.27
+        },
+        {
+            "skill": "NoSQL",
+            "count": 1111,
+            "percentage": 10.97
+        },
+        {
+            "skill": "DevOps",
+            "count": 1072,
+            "percentage": 10.58
+        },
+        {
+            "skill": "C#",
+            "count": 1025,
+            "percentage": 10.12
+        },
+        {
+            "skill": "Microservices",
+            "count": 995,
+            "percentage": 9.82
+        },
+        {
+            "skill": "Cloud Computing",
+            "count": 985,
+            "percentage": 9.72
+        },
+        {
+            "skill": "Azure",
+            "count": 958,
+            "percentage": 9.46
+        },
+        {
+            "skill": "Computer Science",
+            "count": 955,
+            "percentage": 9.43
+        },
+        {
+            "skill": "Teamwork",
+            "count": 921,
+            "percentage": 9.09
+        },
+        {
+            "skill": "Bachelor's Degree",
+            "count": 921,
+            "percentage": 9.09
+        },
+        {
+            "skill": "GCP",
+            "count": 919,
+            "percentage": 9.07
+        },
+        {
+            "skill": "Collaboration",
+            "count": 913,
+            "percentage": 9.01
+        },
+        {
+            "skill": "Scala",
+            "count": 902,
+            "percentage": 8.9
+        },
+        {
+            "skill": "Angular",
+            "count": 900,
+            "percentage": 8.88
+        },
+        {
+            "skill": "Software engineering",
+            "count": 881,
+            "percentage": 8.7
+        },
+        {
+            "skill": "Leadership",
+            "count": 802,
+            "percentage": 7.92
+        },
+        {
+            "skill": "Node.js",
+            "count": 795,
+            "percentage": 7.85
+        },
+        {
+            "skill": "Problem Solving",
+            "count": 786,
+            "percentage": 7.76
+        },
+        {
+            "skill": "Jenkins",
+            "count": 781,
+            "percentage": 7.71
+        },
+        {
+            "skill": "Mentoring",
+            "count": 705,
+            "percentage": 6.96
+        },
+        {
+            "skill": "HTML",
+            "count": 697,
+            "percentage": 6.88
+        },
+        {
+            "skill": "CSS",
+            "count": 694,
+            "percentage": 6.85
+        },
+        {
+            "skill": "Machine Learning",
+            "count": 650,
+            "percentage": 6.42
+        },
+        {
+            "skill": "Scrum",
+            "count": 634,
+            "percentage": 6.26
+        },
+        {
+            "skill": "Software development",
+            "count": 631,
+            "percentage": 6.23
+        },
+        {
+            "skill": "HTML/CSS",
+            "count": 628,
+            "percentage": 6.2
+        },
+        {
+            "skill": "CI/CD",
+            "count": 625,
+            "percentage": 6.17
+        },
+        {
+            "skill": "Debugging",
+            "count": 606,
+            "percentage": 5.98
+        },
+        {
+            "skill": "Open Source RDBMS",
+            "count": 605,
+            "percentage": 5.97
+        },
+        {
+            "skill": "Testing",
+            "count": 597,
+            "percentage": 5.89
+        },
+        {
+            "skill": "Agile practices",
+            "count": 593,
+            "percentage": 5.85
+        },
+        {
+            "skill": "Troubleshooting",
+            "count": 578,
+            "percentage": 5.71
+        },
+        {
+            "skill": "C",
+            "count": 571,
+            "percentage": 5.64
+        },
+        {
+            "skill": "Kafka",
+            "count": 571,
+            "percentage": 5.64
+        }
+    ],
+    "Data Science & Analytics": [
+        {
+            "skill": "Python",
+            "count": 806,
+            "percentage": 79.96
+        },
+        {
+            "skill": "SQL",
+            "count": 593,
+            "percentage": 58.83
+        },
+        {
+            "skill": "Data Science",
+            "count": 576,
+            "percentage": 57.14
+        },
+        {
+            "skill": "Machine Learning",
+            "count": 518,
+            "percentage": 51.39
+        },
+        {
+            "skill": "R",
+            "count": 473,
+            "percentage": 46.92
+        },
+        {
+            "skill": "Statistics",
+            "count": 366,
+            "percentage": 36.31
+        },
+        {
+            "skill": "Data Visualization",
+            "count": 273,
+            "percentage": 27.08
+        },
+        {
+            "skill": "Communication",
+            "count": 256,
+            "percentage": 25.4
+        },
+        {
+            "skill": "Tableau",
+            "count": 227,
+            "percentage": 22.52
+        },
+        {
+            "skill": "Spark",
+            "count": 206,
+            "percentage": 20.44
+        },
+        {
+            "skill": "Data Analysis",
+            "count": 204,
+            "percentage": 20.24
+        },
+        {
+            "skill": "Machine learning",
+            "count": 184,
+            "percentage": 18.25
+        },
+        {
+            "skill": "AWS",
+            "count": 176,
+            "percentage": 17.46
+        },
+        {
+            "skill": "Data Mining",
+            "count": 163,
+            "percentage": 16.17
+        },
+        {
+            "skill": "Computer Science",
+            "count": 155,
+            "percentage": 15.38
+        },
+        {
+            "skill": "Mathematics",
+            "count": 153,
+            "percentage": 15.18
+        },
+        {
+            "skill": "Hadoop",
+            "count": 145,
+            "percentage": 14.38
+        },
+        {
+            "skill": "Artificial Intelligence",
+            "count": 133,
+            "percentage": 13.19
+        },
+        {
+            "skill": "Collaboration",
+            "count": 132,
+            "percentage": 13.1
+        },
+        {
+            "skill": "Data Analytics",
+            "count": 130,
+            "percentage": 12.9
+        },
+        {
+            "skill": "Java",
+            "count": 125,
+            "percentage": 12.4
+        },
+        {
+            "skill": "Data analysis",
+            "count": 116,
+            "percentage": 11.51
+        },
+        {
+            "skill": "PyTorch",
+            "count": 112,
+            "percentage": 11.11
+        },
+        {
+            "skill": "Data science",
+            "count": 111,
+            "percentage": 11.01
+        },
+        {
+            "skill": "Data visualization",
+            "count": 108,
+            "percentage": 10.71
+        },
+        {
+            "skill": "Statistical Analysis",
+            "count": 105,
+            "percentage": 10.42
+        },
+        {
+            "skill": "Azure",
+            "count": 104,
+            "percentage": 10.32
+        },
+        {
+            "skill": "Leadership",
+            "count": 102,
+            "percentage": 10.12
+        },
+        {
+            "skill": "Natural Language Processing",
+            "count": 100,
+            "percentage": 9.92
+        },
+        {
+            "skill": "Problem Solving",
+            "count": 99,
+            "percentage": 9.82
+        },
+        {
+            "skill": "TensorFlow",
+            "count": 98,
+            "percentage": 9.72
+        },
+        {
+            "skill": "Deep Learning",
+            "count": 94,
+            "percentage": 9.33
+        },
+        {
+            "skill": "Analytics",
+            "count": 93,
+            "percentage": 9.23
+        },
+        {
+            "skill": "SAS",
+            "count": 93,
+            "percentage": 9.23
+        },
+        {
+            "skill": "Teamwork",
+            "count": 92,
+            "percentage": 9.13
+        },
+        {
+            "skill": "Power BI",
+            "count": 88,
+            "percentage": 8.73
+        },
+        {
+            "skill": "Data Engineering",
+            "count": 86,
+            "percentage": 8.53
+        },
+        {
+            "skill": "Business Intelligence",
+            "count": 84,
+            "percentage": 8.33
+        },
+        {
+            "skill": "Engineering",
+            "count": 83,
+            "percentage": 8.23
+        },
+        {
+            "skill": "Cloud Computing",
+            "count": 80,
+            "percentage": 7.94
+        },
+        {
+            "skill": "Scala",
+            "count": 80,
+            "percentage": 7.94
+        },
+        {
+            "skill": "Project Management",
+            "count": 78,
+            "percentage": 7.74
+        },
+        {
+            "skill": "Statistical Modeling",
+            "count": 77,
+            "percentage": 7.64
+        },
+        {
+            "skill": "NLP",
+            "count": 73,
+            "percentage": 7.24
+        },
+        {
+            "skill": "Pandas",
+            "count": 72,
+            "percentage": 7.14
+        },
+        {
+            "skill": "Git",
+            "count": 71,
+            "percentage": 7.04
+        },
+        {
+            "skill": "Predictive Modeling",
+            "count": 71,
+            "percentage": 7.04
+        },
+        {
+            "skill": "Algorithms",
+            "count": 70,
+            "percentage": 6.94
+        },
+        {
+            "skill": "Hive",
+            "count": 68,
+            "percentage": 6.75
+        },
+        {
+            "skill": "C++",
+            "count": 67,
+            "percentage": 6.65
+        }
+    ],
+    "Data Analytics": [
+        {
+            "skill": "SQL",
+            "count": 1147,
+            "percentage": 62.81
+        },
+        {
+            "skill": "Data Analysis",
+            "count": 881,
+            "percentage": 48.25
+        },
+        {
+            "skill": "Python",
+            "count": 790,
+            "percentage": 43.26
+        },
+        {
+            "skill": "Tableau",
+            "count": 707,
+            "percentage": 38.72
+        },
+        {
+            "skill": "Data Visualization",
+            "count": 658,
+            "percentage": 36.04
+        },
+        {
+            "skill": "R",
+            "count": 555,
+            "percentage": 30.39
+        },
+        {
+            "skill": "Communication",
+            "count": 530,
+            "percentage": 29.03
+        },
+        {
+            "skill": "Power BI",
+            "count": 439,
+            "percentage": 24.04
+        },
+        {
+            "skill": "Data analysis",
+            "count": 384,
+            "percentage": 21.03
+        },
+        {
+            "skill": "Excel",
+            "count": 348,
+            "percentage": 19.06
+        },
+        {
+            "skill": "Reporting",
+            "count": 306,
+            "percentage": 16.76
+        },
+        {
+            "skill": "Data visualization",
+            "count": 297,
+            "percentage": 16.27
+        },
+        {
+            "skill": "Statistics",
+            "count": 292,
+            "percentage": 15.99
+        },
+        {
+            "skill": "Data Analytics",
+            "count": 269,
+            "percentage": 14.73
+        },
+        {
+            "skill": "Data Management",
+            "count": 263,
+            "percentage": 14.4
+        },
+        {
+            "skill": "Project Management",
+            "count": 255,
+            "percentage": 13.96
+        },
+        {
+            "skill": "Teamwork",
+            "count": 254,
+            "percentage": 13.91
+        },
+        {
+            "skill": "Problem Solving",
+            "count": 245,
+            "percentage": 13.42
+        },
+        {
+            "skill": "Business Intelligence",
+            "count": 234,
+            "percentage": 12.81
+        },
+        {
+            "skill": "Data Mining",
+            "count": 234,
+            "percentage": 12.81
+        },
+        {
+            "skill": "Collaboration",
+            "count": 195,
+            "percentage": 10.68
+        },
+        {
+            "skill": "Communication Skills",
+            "count": 188,
+            "percentage": 10.3
+        },
+        {
+            "skill": "Data Warehousing",
+            "count": 178,
+            "percentage": 9.75
+        },
+        {
+            "skill": "Analytical Skills",
+            "count": 170,
+            "percentage": 9.31
+        },
+        {
+            "skill": "Machine Learning",
+            "count": 164,
+            "percentage": 8.98
+        },
+        {
+            "skill": "Data Modeling",
+            "count": 164,
+            "percentage": 8.98
+        },
+        {
+            "skill": "Statistical Analysis",
+            "count": 163,
+            "percentage": 8.93
+        },
+        {
+            "skill": "Data Interpretation",
+            "count": 162,
+            "percentage": 8.87
+        },
+        {
+            "skill": "SAS",
+            "count": 153,
+            "percentage": 8.38
+        },
+        {
+            "skill": "Attention to Detail",
+            "count": 145,
+            "percentage": 7.94
+        },
+        {
+            "skill": "Data Quality",
+            "count": 144,
+            "percentage": 7.89
+        },
+        {
+            "skill": "Data Science",
+            "count": 141,
+            "percentage": 7.72
+        },
+        {
+            "skill": "Data Governance",
+            "count": 140,
+            "percentage": 7.67
+        },
+        {
+            "skill": "Analytical skills",
+            "count": 138,
+            "percentage": 7.56
+        },
+        {
+            "skill": "ETL",
+            "count": 125,
+            "percentage": 6.85
+        },
+        {
+            "skill": "Data Manipulation",
+            "count": 123,
+            "percentage": 6.74
+        },
+        {
+            "skill": "Data Integration",
+            "count": 122,
+            "percentage": 6.68
+        },
+        {
+            "skill": "Communication skills",
+            "count": 119,
+            "percentage": 6.52
+        },
+        {
+            "skill": "PowerBI",
+            "count": 114,
+            "percentage": 6.24
+        },
+        {
+            "skill": "A/B Testing",
+            "count": 111,
+            "percentage": 6.08
+        },
+        {
+            "skill": "Project management",
+            "count": 111,
+            "percentage": 6.08
+        },
+        {
+            "skill": "Microsoft Excel",
+            "count": 109,
+            "percentage": 5.97
+        },
+        {
+            "skill": "Bachelor's Degree",
+            "count": 109,
+            "percentage": 5.97
+        },
+        {
+            "skill": "Critical Thinking",
+            "count": 108,
+            "percentage": 5.91
+        },
+        {
+            "skill": "Data mining",
+            "count": 107,
+            "percentage": 5.86
+        },
+        {
+            "skill": "Data Collection",
+            "count": 106,
+            "percentage": 5.81
+        },
+        {
+            "skill": "Problemsolving",
+            "count": 103,
+            "percentage": 5.64
+        },
+        {
+            "skill": "Attention to detail",
+            "count": 97,
+            "percentage": 5.31
+        },
+        {
+            "skill": "Mathematics",
+            "count": 97,
+            "percentage": 5.31
+        },
+        {
+            "skill": "Hypothesis Testing",
+            "count": 95,
+            "percentage": 5.2
+        }
+    ],
+    "Machine Learning": [
+        {
+            "skill": "Python",
+            "count": 638,
+            "percentage": 75.24
+        },
+        {
+            "skill": "Machine Learning",
+            "count": 591,
+            "percentage": 69.69
+        },
+        {
+            "skill": "PyTorch",
+            "count": 364,
+            "percentage": 42.92
+        },
+        {
+            "skill": "TensorFlow",
+            "count": 306,
+            "percentage": 36.08
+        },
+        {
+            "skill": "AWS",
+            "count": 234,
+            "percentage": 27.59
+        },
+        {
+            "skill": "Deep Learning",
+            "count": 210,
+            "percentage": 24.76
+        },
+        {
+            "skill": "Java",
+            "count": 186,
+            "percentage": 21.93
+        },
+        {
+            "skill": "Azure",
+            "count": 171,
+            "percentage": 20.17
+        },
+        {
+            "skill": "Kubernetes",
+            "count": 163,
+            "percentage": 19.22
+        },
+        {
+            "skill": "Docker",
+            "count": 158,
+            "percentage": 18.63
+        },
+        {
+            "skill": "Communication",
+            "count": 155,
+            "percentage": 18.28
+        },
+        {
+            "skill": "Spark",
+            "count": 150,
+            "percentage": 17.69
+        },
+        {
+            "skill": "Scala",
+            "count": 144,
+            "percentage": 16.98
+        },
+        {
+            "skill": "SQL",
+            "count": 143,
+            "percentage": 16.86
+        },
+        {
+            "skill": "Data Science",
+            "count": 134,
+            "percentage": 15.8
+        },
+        {
+            "skill": "Tensorflow",
+            "count": 128,
+            "percentage": 15.09
+        },
+        {
+            "skill": "Cloud Computing",
+            "count": 122,
+            "percentage": 14.39
+        },
+        {
+            "skill": "Pandas",
+            "count": 118,
+            "percentage": 13.92
+        },
+        {
+            "skill": "Agile",
+            "count": 108,
+            "percentage": 12.74
+        },
+        {
+            "skill": "GCP",
+            "count": 105,
+            "percentage": 12.38
+        },
+        {
+            "skill": "Data Preparation",
+            "count": 101,
+            "percentage": 11.91
+        },
+        {
+            "skill": "Computer Science",
+            "count": 101,
+            "percentage": 11.91
+        },
+        {
+            "skill": "Natural Language Processing",
+            "count": 98,
+            "percentage": 11.56
+        },
+        {
+            "skill": "Machine learning",
+            "count": 97,
+            "percentage": 11.44
+        },
+        {
+            "skill": "Data Pipelines",
+            "count": 97,
+            "percentage": 11.44
+        },
+        {
+            "skill": "MLOps",
+            "count": 95,
+            "percentage": 11.2
+        },
+        {
+            "skill": "Scikitlearn",
+            "count": 95,
+            "percentage": 11.2
+        },
+        {
+            "skill": "Collaboration",
+            "count": 94,
+            "percentage": 11.08
+        },
+        {
+            "skill": "Software Engineering",
+            "count": 93,
+            "percentage": 10.97
+        },
+        {
+            "skill": "Artificial Intelligence",
+            "count": 92,
+            "percentage": 10.85
+        },
+        {
+            "skill": "Software Development",
+            "count": 90,
+            "percentage": 10.61
+        },
+        {
+            "skill": "Model Deployment",
+            "count": 90,
+            "percentage": 10.61
+        },
+        {
+            "skill": "Jupyter",
+            "count": 90,
+            "percentage": 10.61
+        },
+        {
+            "skill": "Generative AI",
+            "count": 89,
+            "percentage": 10.5
+        },
+        {
+            "skill": "Statistics",
+            "count": 85,
+            "percentage": 10.02
+        },
+        {
+            "skill": "Numba",
+            "count": 85,
+            "percentage": 10.02
+        },
+        {
+            "skill": "DevOps",
+            "count": 82,
+            "percentage": 9.67
+        },
+        {
+            "skill": "Feature Engineering",
+            "count": 81,
+            "percentage": 9.55
+        },
+        {
+            "skill": "Data Analysis",
+            "count": 81,
+            "percentage": 9.55
+        },
+        {
+            "skill": "C++",
+            "count": 79,
+            "percentage": 9.32
+        },
+        {
+            "skill": "Google Cloud Platform",
+            "count": 78,
+            "percentage": 9.2
+        },
+        {
+            "skill": "Model Evaluation",
+            "count": 74,
+            "percentage": 8.73
+        },
+        {
+            "skill": "Dask",
+            "count": 74,
+            "percentage": 8.73
+        },
+        {
+            "skill": "Leadership",
+            "count": 74,
+            "percentage": 8.73
+        },
+        {
+            "skill": "Project Management",
+            "count": 72,
+            "percentage": 8.49
+        },
+        {
+            "skill": "Data Engineering",
+            "count": 71,
+            "percentage": 8.37
+        },
+        {
+            "skill": "Hadoop",
+            "count": 70,
+            "percentage": 8.25
+        },
+        {
+            "skill": "Computer Vision",
+            "count": 70,
+            "percentage": 8.25
+        },
+        {
+            "skill": "DataBricks",
+            "count": 70,
+            "percentage": 8.25
+        },
+        {
+            "skill": "Torch",
+            "count": 69,
+            "percentage": 8.14
+        }
+    ],
+    "Deep Learning": [
+        {
+            "skill": "Python",
+            "count": 36,
+            "percentage": 73.47
+        },
+        {
+            "skill": "Deep Learning",
+            "count": 33,
+            "percentage": 67.35
+        },
+        {
+            "skill": "C++",
+            "count": 29,
+            "percentage": 59.18
+        },
+        {
+            "skill": "CUDA",
+            "count": 25,
+            "percentage": 51.02
+        },
+        {
+            "skill": "Machine Learning",
+            "count": 25,
+            "percentage": 51.02
+        },
+        {
+            "skill": "PyTorch",
+            "count": 17,
+            "percentage": 34.69
+        },
+        {
+            "skill": "TensorFlow",
+            "count": 16,
+            "percentage": 32.65
+        },
+        {
+            "skill": "OpenCL",
+            "count": 15,
+            "percentage": 30.61
+        },
+        {
+            "skill": "Computer Architecture",
+            "count": 10,
+            "percentage": 20.41
+        },
+        {
+            "skill": "TensorRT",
+            "count": 10,
+            "percentage": 20.41
+        },
+        {
+            "skill": "C",
+            "count": 9,
+            "percentage": 18.37
+        },
+        {
+            "skill": "Profiling",
+            "count": 9,
+            "percentage": 18.37
+        },
+        {
+            "skill": "Data Science",
+            "count": 8,
+            "percentage": 16.33
+        },
+        {
+            "skill": "Software Engineering",
+            "count": 8,
+            "percentage": 16.33
+        },
+        {
+            "skill": "Tensorflow",
+            "count": 8,
+            "percentage": 16.33
+        },
+        {
+            "skill": "Analysis",
+            "count": 8,
+            "percentage": 16.33
+        },
+        {
+            "skill": "Algorithms",
+            "count": 7,
+            "percentage": 14.29
+        },
+        {
+            "skill": "Optimization",
+            "count": 7,
+            "percentage": 14.29
+        },
+        {
+            "skill": "Artificial Intelligence",
+            "count": 7,
+            "percentage": 14.29
+        },
+        {
+            "skill": "Computer Vision",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "Computer Science",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "OpenMP",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "Performance Modeling",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "Architecture Simulation",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "GPU Architecture",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "JAX",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "Visualization",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "MLIR",
+            "count": 6,
+            "percentage": 12.24
+        },
+        {
+            "skill": "Linear Algebra",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "Debugging",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "Quantization",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "Computer architecture",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "Pytorch",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "GPU Computing",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "Performance Analysis",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "Neural Networks",
+            "count": 5,
+            "percentage": 10.2
+        },
+        {
+            "skill": "Linux",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Software Architecture",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Deep learning",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Documentation",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Team Collaboration",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Robotics",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Performance analysis",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Machine learning",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Communication",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "GPU Programming",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Software Development",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "CI/CD",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "Spark",
+            "count": 4,
+            "percentage": 8.16
+        },
+        {
+            "skill": "SQL",
+            "count": 4,
+            "percentage": 8.16
+        }
+    ],
+    "Computer Vision": [
+        {
+            "skill": "Python",
+            "count": 106,
+            "percentage": 74.13
+        },
+        {
+            "skill": "Computer Vision",
+            "count": 90,
+            "percentage": 62.94
+        },
+        {
+            "skill": "Deep Learning",
+            "count": 75,
+            "percentage": 52.45
+        },
+        {
+            "skill": "PyTorch",
+            "count": 71,
+            "percentage": 49.65
+        },
+        {
+            "skill": "TensorFlow",
+            "count": 66,
+            "percentage": 46.15
+        },
+        {
+            "skill": "OpenCV",
+            "count": 60,
+            "percentage": 41.96
+        },
+        {
+            "skill": "Data Annotation",
+            "count": 53,
+            "percentage": 37.06
+        },
+        {
+            "skill": "Data Preprocessing",
+            "count": 53,
+            "percentage": 37.06
+        },
+        {
+            "skill": "Model Training",
+            "count": 47,
+            "percentage": 32.87
+        },
+        {
+            "skill": "Data Collection",
+            "count": 46,
+            "percentage": 32.17
+        },
+        {
+            "skill": "Data Augmentation",
+            "count": 45,
+            "percentage": 31.47
+        },
+        {
+            "skill": "Model Evaluation",
+            "count": 44,
+            "percentage": 30.77
+        },
+        {
+            "skill": "Object Detection",
+            "count": 40,
+            "percentage": 27.97
+        },
+        {
+            "skill": "Model Deployment",
+            "count": 40,
+            "percentage": 27.97
+        },
+        {
+            "skill": "Image Segmentation",
+            "count": 39,
+            "percentage": 27.27
+        },
+        {
+            "skill": "Image Recognition",
+            "count": 39,
+            "percentage": 27.27
+        },
+        {
+            "skill": "Machine Learning",
+            "count": 35,
+            "percentage": 24.48
+        },
+        {
+            "skill": "Deployment",
+            "count": 34,
+            "percentage": 23.78
+        },
+        {
+            "skill": "Optimization",
+            "count": 33,
+            "percentage": 23.08
+        },
+        {
+            "skill": "C++",
+            "count": 32,
+            "percentage": 22.38
+        },
+        {
+            "skill": "Algorithm Development",
+            "count": 28,
+            "percentage": 19.58
+        },
+        {
+            "skill": "Software Engineering",
+            "count": 27,
+            "percentage": 18.88
+        },
+        {
+            "skill": "Convolutional Neural Networks (CNNs)",
+            "count": 26,
+            "percentage": 18.18
+        },
+        {
+            "skill": "Recurrent Neural Networks (RNNs)",
+            "count": 26,
+            "percentage": 18.18
+        },
+        {
+            "skill": "Image Processing",
+            "count": 23,
+            "percentage": 16.08
+        },
+        {
+            "skill": "Computer Science",
+            "count": 23,
+            "percentage": 16.08
+        },
+        {
+            "skill": "GANs",
+            "count": 18,
+            "percentage": 12.59
+        },
+        {
+            "skill": "Integration",
+            "count": 17,
+            "percentage": 11.89
+        },
+        {
+            "skill": "SQL",
+            "count": 16,
+            "percentage": 11.19
+        },
+        {
+            "skill": "Linux",
+            "count": 15,
+            "percentage": 10.49
+        },
+        {
+            "skill": "Robotics",
+            "count": 15,
+            "percentage": 10.49
+        },
+        {
+            "skill": "Software engineering",
+            "count": 15,
+            "percentage": 10.49
+        },
+        {
+            "skill": "Convolutional Neural Networks",
+            "count": 14,
+            "percentage": 9.79
+        },
+        {
+            "skill": "Java",
+            "count": 14,
+            "percentage": 9.79
+        },
+        {
+            "skill": "Recurrent Neural Networks",
+            "count": 13,
+            "percentage": 9.09
+        },
+        {
+            "skill": "Hadoop",
+            "count": 13,
+            "percentage": 9.09
+        },
+        {
+            "skill": "CNNs",
+            "count": 13,
+            "percentage": 9.09
+        },
+        {
+            "skill": "RNNs",
+            "count": 13,
+            "percentage": 9.09
+        },
+        {
+            "skill": "Software Integration",
+            "count": 13,
+            "percentage": 9.09
+        },
+        {
+            "skill": "Computer vision",
+            "count": 12,
+            "percentage": 8.39
+        },
+        {
+            "skill": "CNN",
+            "count": 12,
+            "percentage": 8.39
+        },
+        {
+            "skill": "Azure",
+            "count": 11,
+            "percentage": 7.69
+        },
+        {
+            "skill": "Communication",
+            "count": 11,
+            "percentage": 7.69
+        },
+        {
+            "skill": "Production Environments",
+            "count": 11,
+            "percentage": 7.69
+        },
+        {
+            "skill": "Scalability",
+            "count": 10,
+            "percentage": 6.99
+        },
+        {
+            "skill": "AWS",
+            "count": 10,
+            "percentage": 6.99
+        },
+        {
+            "skill": "Bachelor's Degree",
+            "count": 10,
+            "percentage": 6.99
+        },
+        {
+            "skill": "Electrical Engineering",
+            "count": 10,
+            "percentage": 6.99
+        },
+        {
+            "skill": "Pyspark",
+            "count": 10,
+            "percentage": 6.99
+        },
+        {
+            "skill": "Machine learning",
+            "count": 10,
+            "percentage": 6.99
+        }
+    ],
+    "Natural Language Processing": [
+        {
+            "skill": "Python",
+            "count": 65,
+            "percentage": 68.42
+        },
+        {
+            "skill": "NLP",
+            "count": 42,
+            "percentage": 44.21
+        },
+        {
+            "skill": "TensorFlow",
+            "count": 38,
+            "percentage": 40.0
+        },
+        {
+            "skill": "Machine Learning",
+            "count": 37,
+            "percentage": 38.95
+        },
+        {
+            "skill": "Collaboration",
+            "count": 34,
+            "percentage": 35.79
+        },
+        {
+            "skill": "SQL",
+            "count": 34,
+            "percentage": 35.79
+        },
+        {
+            "skill": "PyTorch",
+            "count": 31,
+            "percentage": 32.63
+        },
+        {
+            "skill": "Generative AI",
+            "count": 29,
+            "percentage": 30.53
+        },
+        {
+            "skill": "Programming",
+            "count": 26,
+            "percentage": 27.37
+        },
+        {
+            "skill": "Data Science",
+            "count": 25,
+            "percentage": 26.32
+        },
+        {
+            "skill": "Deep Learning",
+            "count": 25,
+            "percentage": 26.32
+        },
+        {
+            "skill": "Natural Language Processing",
+            "count": 24,
+            "percentage": 25.26
+        },
+        {
+            "skill": "Machine learning",
+            "count": 22,
+            "percentage": 23.16
+        },
+        {
+            "skill": "Sentiment analysis",
+            "count": 22,
+            "percentage": 23.16
+        },
+        {
+            "skill": "Communication",
+            "count": 22,
+            "percentage": 23.16
+        },
+        {
+            "skill": "Java",
+            "count": 21,
+            "percentage": 22.11
+        },
+        {
+            "skill": "Transformers",
+            "count": 21,
+            "percentage": 22.11
+        },
+        {
+            "skill": "Pytorch",
+            "count": 20,
+            "percentage": 21.05
+        },
+        {
+            "skill": "Huggingface",
+            "count": 19,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Computational linguistics",
+            "count": 18,
+            "percentage": 18.95
+        },
+        {
+            "skill": "Sentiment Analysis",
+            "count": 18,
+            "percentage": 18.95
+        },
+        {
+            "skill": "MLOps",
+            "count": 17,
+            "percentage": 17.89
+        },
+        {
+            "skill": "Artificial intelligence",
+            "count": 16,
+            "percentage": 16.84
+        },
+        {
+            "skill": "Machine translation",
+            "count": 15,
+            "percentage": 15.79
+        },
+        {
+            "skill": "Coachability",
+            "count": 15,
+            "percentage": 15.79
+        },
+        {
+            "skill": "Computer Science",
+            "count": 14,
+            "percentage": 14.74
+        },
+        {
+            "skill": "Data science",
+            "count": 14,
+            "percentage": 14.74
+        },
+        {
+            "skill": "Entity disambiguation",
+            "count": 14,
+            "percentage": 14.74
+        },
+        {
+            "skill": "Text generation",
+            "count": 14,
+            "percentage": 14.74
+        },
+        {
+            "skill": "Testing",
+            "count": 14,
+            "percentage": 14.74
+        },
+        {
+            "skill": "Computational Linguistics",
+            "count": 14,
+            "percentage": 14.74
+        },
+        {
+            "skill": "Research",
+            "count": 13,
+            "percentage": 13.68
+        },
+        {
+            "skill": "C++",
+            "count": 13,
+            "percentage": 13.68
+        },
+        {
+            "skill": "Statistics",
+            "count": 13,
+            "percentage": 13.68
+        },
+        {
+            "skill": "R",
+            "count": 13,
+            "percentage": 13.68
+        },
+        {
+            "skill": "Data Analysis",
+            "count": 13,
+            "percentage": 13.68
+        },
+        {
+            "skill": "Machine Translation",
+            "count": 13,
+            "percentage": 13.68
+        },
+        {
+            "skill": "Mentorship",
+            "count": 12,
+            "percentage": 12.63
+        },
+        {
+            "skill": "Name recognition",
+            "count": 12,
+            "percentage": 12.63
+        },
+        {
+            "skill": "Deep learning",
+            "count": 12,
+            "percentage": 12.63
+        },
+        {
+            "skill": "Data Preprocessing",
+            "count": 12,
+            "percentage": 12.63
+        },
+        {
+            "skill": "Model Evaluation",
+            "count": 12,
+            "percentage": 12.63
+        },
+        {
+            "skill": "Natural language processing",
+            "count": 11,
+            "percentage": 11.58
+        },
+        {
+            "skill": "Feature Engineering",
+            "count": 11,
+            "percentage": 11.58
+        },
+        {
+            "skill": "Engineering",
+            "count": 11,
+            "percentage": 11.58
+        },
+        {
+            "skill": "Text Generation",
+            "count": 11,
+            "percentage": 11.58
+        },
+        {
+            "skill": "Data preprocessing",
+            "count": 11,
+            "percentage": 11.58
+        },
+        {
+            "skill": "Feature engineering",
+            "count": 11,
+            "percentage": 11.58
+        },
+        {
+            "skill": "Algorithms",
+            "count": 10,
+            "percentage": 10.53
+        },
+        {
+            "skill": "Optimization",
+            "count": 10,
+            "percentage": 10.53
+        }
+    ]
+}

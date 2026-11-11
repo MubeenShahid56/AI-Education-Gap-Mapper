@@ -1,0 +1,23 @@
+{
+    "best_model": "Random Forest",
+    "results": {
+        "Naive Bayes": {
+            "accuracy": 0.8918439716312057,
+            "precision": 0.8775260731909482,
+            "recall": 0.8918439716312057,
+            "f1_score": 0.8785244121103931
+        },
+        "Decision Tree": {
+            "accuracy": 0.8673758865248227,
+            "precision": 0.8649215947721246,
+            "recall": 0.8673758865248227,
+            "f1_score": 0.8655222458082041
+        },
+        "Random Forest": {
+            "accuracy": 0.9063829787234042,
+            "precision": 0.89921374951892,
+            "recall": 0.9063829787234042,
+            "f1_score": 0.8977737506740736
+        }
+    }
+}

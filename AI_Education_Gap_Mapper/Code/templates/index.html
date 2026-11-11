@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Education Gap Mapper</title>
+    <!-- Google Fonts: Outfit and Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Background glow elements for premium look -->
+    <div class="glow-bg">
+        <div class="glow-circle glow-blue"></div>
+        <div class="glow-circle glow-purple"></div>
+    </div>
+
+    <header class="app-header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap logo-icon"></i>
+                <span class="logo-text">AI Education <span class="gradient-text">Gap Mapper</span></span>
+            </div>
+            <nav class="header-nav">
+                <a href="#analyzer" class="nav-link active"><i class="fa-solid fa-magnifying-glass-chart"></i> Analyzer</a>
+                <a href="#models" class="nav-link"><i class="fa-solid fa-chart-line"></i> Model Performance</a>
+                <a href="#about" class="nav-link"><i class="fa-solid fa-circle-info"></i> About Project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">Bridge the Gap Between <span class="gradient-text">Academia</span> and <span class="gradient-text-sec">AI Industry</span></h1>
+            <p class="hero-subtitle">
+                An advanced educational technology system that uses Machine Learning (Random Forest, Decision Tree, Naive Bayes) to analyze university course outlines, compare them against millions of job requirements, and identify missing or weakly covered skills.
+            </p>
+        </section>
+
+        <!-- Analyzer & Results Section -->
+        <section id="analyzer" class="dashboard-section">
+            <div class="grid-layout">
+                <!-- Left Panel: Input Syllabi & Selection -->
+                <div class="card glass-card input-panel">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-file-invoice"></i> Course Syllabus Input</h2>
+                        <span class="card-tag">Interactive</span>
+                    </div>
+                    
+                    <!-- Preloaded Syllabi Selector -->
+                    <div class="input-group">
+                        <label for="preloaded-select">Load Standard University Course:</label>
+                        <select id="preloaded-select" class="form-select">
+                            <option value="" disabled selected>-- Select a preloaded syllabus --</option>
+                            <!-- Options will be populated dynamically -->
+                        </select>
+                    </div>
+
+                    <div class="divider"><span>OR ENTER CUSTOM SYLLABUS</span></div>
+
+                    <!-- Custom Form -->
+                    <form id="syllabus-form" class="custom-form">
+                        <div class="input-group">
+                            <label for="course-title">Course Title:</label>
+                            <input type="text" id="course-title" placeholder="e.g. Intro to Applied Machine Learning" required class="form-input">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="course-description">Course Description:</label>
+                            <textarea id="course-description" rows="4" placeholder="Describe what students will learn in this course. Provide details about projects, assessments, and targeted learning outcomes." required class="form-textarea"></textarea>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="syllabus-weeks">Weekly Topics / Syllabus Outline (one per line):</label>
+                            <textarea id="syllabus-weeks" rows="6" placeholder="Week 1: Introduction to regression models&#10;Week 2: Gradient descent and training algorithms&#10;Week 3: Regularization and Support Vector Machines&#10;Week 4: Model evaluation metrics (ROC, AUC, F1)" required class="form-textarea"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="analyze-btn">
+                            <span class="btn-content"><i class="fa-solid fa-wand-magic-sparkles"></i> Analyze Curriculum Gap</span>
+                            <span class="loader-spinner hidden"><i class="fa-solid fa-spinner fa-spin"></i> Analyzing...</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right Panel: Gap Analysis Results (Hidden initially or showing welcome state) -->
+                <div class="card glass-card results-panel" id="results-card">
+                    <!-- Welcome State -->
+                    <div class="welcome-state" id="welcome-state">
+                        <div class="welcome-icon-container">
+                            <i class="fa-solid fa-chart-pie welcome-icon"></i>
+                        </div>
+                        <h3>Ready for Analysis</h3>
+                        <p>Select a preloaded course syllabus from the dropdown or fill in your own course details on the left, then click "Analyze Curriculum Gap" to generate the alignment dashboard.</p>
+                    </div>
+
+                    <!-- Analysis Loaded State -->
+                    <div class="analysis-results hidden" id="analysis-results">
+                        <div class="results-header-summary">
+                            <div>
+                                <h3 id="res-course-title" class="res-title">Course Title</h3>
+                                <div class="domain-tag-container">
+                                    <span class="label-muted">Classified Domain:</span>
+                                    <span class="badge badge-primary" id="res-predicted-domain">Machine Learning</span>
+                                </div>
+                            </div>
+                            <div class="alignment-score-container">
+                                <div class="score-circle">
+                                    <svg class="progress-ring" width="100" height="100">
+                                        <circle class="progress-ring__circle-bg" stroke="rgba(255,255,255,0.05)" stroke-width="8" fill="transparent" r="40" cx="50" cy="50"/>
+                                        <circle class="progress-ring__circle" id="score-ring" stroke="url(#scoreGrad)" stroke-width="8" fill="transparent" r="40" cx="50" cy="50"/>
+                                        <defs>
+                                            <linearGradient id="scoreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" stop-color="#3B82F6" />
+                                                <stop offset="100%" stop-color="#10B981" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <div class="score-text">
+                                        <span id="res-alignment-pct" class="score-val">0</span><span class="score-unit">%</span>
+                                    </div>
+                                </div>
+                                <span class="score-label">Alignment Score</span>
+                            </div>
+                        </div>
+
+                        <div class="results-tabs">
+                            <button class="tab-btn active" data-tab="tab-alignment"><i class="fa-solid fa-arrows-split-up-and-left"></i> Skills Coverage</button>
+                            <button class="tab-btn" data-tab="tab-recommendations"><i class="fa-solid fa-list-check"></i> Actionable Gap Plan</button>
+                            <button class="tab-btn" data-tab="tab-extracted"><i class="fa-solid fa-microchip"></i> Covered Skills ({x})</button>
+                        </div>
+
+                        <div class="tab-content-container">
+                            <!-- TAB 1: Skills Coverage & Visual Dashboard -->
+                            <div class="tab-content active" id="tab-alignment">
+                                <div class="chart-container">
+                                    <h4 class="chart-title">Industry Demand vs. Curriculum Coverage</h4>
+                                    <p class="chart-description">Comparing the top 20 skills required by employers in this domain. Covered skills are highlighted in green, missing are in orange/red.</p>
+                                    <div class="chart-wrapper">
+                                        <canvas id="skillsChart"></canvas>
+                                    </div>
+                                </div>
+
+                                <div class="skills-summary-stats">
+                                    <div class="stat-card">
+                                        <div class="stat-num text-success" id="stat-covered-count">0</div>
+                                        <div class="stat-label">Matched Skills</div>
+                                    </div>
+                                    <div class="stat-card">
+                                        <div class="stat-num text-warning" id="stat-missing-count">0</div>
+                                        <div class="stat-label">Missing Skills</div>
+                                    </div>
+                                    <div class="stat-card">
+                                        <div class="stat-num text-primary" id="stat-total-count">20</div>
+                                        <div class="stat-label">Top Skills Evaluated</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- TAB 2: Actionable Gap Plan & Recommendations -->
+                            <div class="tab-content" id="tab-recommendations">
+                                <div class="recommendations-box">
+                                    <h4 class="section-subtitle">Recommended Curriculum Updates</h4>
+                                    <p class="section-description">Based on industry job postings, we recommend introducing or emphasizing the following topics in your syllabus to bridge the education gap.</p>
+                                    <div class="recommendations-list" id="recommendations-list">
+                                        <!-- Recommendations will be populated dynamically -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- TAB 3: Extracted Course Skills -->
+                            <div class="tab-content" id="tab-extracted">
+                                <h4 class="section-subtitle">Skills Detected in Course Syllabus</h4>
+                                <p class="section-description">The following skills were automatically identified in your course title, description, and syllabus using keyword mapping:</p>
+                                <div class="skills-pill-cloud" id="extracted-skills-cloud">
+                                    <!-- Pills will be populated dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Model Evaluation Summary -->
+        <section id="models" class="dashboard-section models-section">
+            <div class="card glass-card">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-brain"></i> Model Summary</h2>
+                    <span class="badge badge-secondary">Classifier</span>
+                </div>
+                <div class="card-body">
+                    <p class="section-intro">Overall model quality for domain prediction (simplified):</p>
+                    <div id="metrics-summary" class="metrics-summary">
+                        <h3 id="metrics-overall">Overall Accuracy: --%</h3>
+                        <p class="label-muted">Only the overall accuracy is displayed here to keep the dashboard focused on gap analysis results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Project Section -->
+        <section id="about" class="dashboard-section about-section">
+            <div class="grid-2col">
+                <div class="card glass-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-circle-question"></i> Project Overview & Methodology</h2>
+                    </div>
+                    <div class="card-body">
+                        <h3>Problem Statement</h3>
+                        <p>
+                            The rapid growth of Artificial Intelligence (AI) has increased the demand for professionals with industry-relevant skills. However, many university AI programs focus primarily on theoretical knowledge and may not cover the practical skills, tools, and technologies required by employers.
+                        </p>
+                        <h3>Proposed Solution</h3>
+                        <p>
+                            The AI Education Gap Mapper automatically analyzes university course content using Machine Learning models. It maps course descriptions to specific AI sub-domains and maps them against current industry requirements scraped from live job postings to identify educational gaps.
+                        </p>
+                        <h3>Workflow</h3>
+                        <ol class="methodology-steps">
+                            <li><strong>Job Data Filtering:</strong> Standardize and extract 14,000+ technology/AI related job requirements from over 1.2 million postings.</li>
+                            <li><strong>Model Training:</strong> Build classification models (Naive Bayes, Decision Tree, Random Forest) using TF-IDF features.</li>
+                            <li><strong>Syllabus Processing:</strong> Extract academic topics and skills using regex-based natural language patterns.</li>
+                            <li><strong>Gap Analysis:</strong> Compare academic coverage with the top-ranking skills in the predicted industry domain.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="card glass-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-triangle-exclamation"></i> Limitations & Future Work</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="limitations-list">
+                            <li>
+                                <div class="list-icon-col"><i class="fa-solid fa-database text-warning"></i></div>
+                                <div>
+                                    <strong>Data Quality Dependency:</strong> The accuracy of results depends on the quality, structure, and detail level of course syllabi and descriptions.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-icon-col"><i class="fa-solid fa-clock text-warning"></i></div>
+                                <div>
+                                    <strong>Temporal Shifts:</strong> Industry requirements change frequently. The skill demand database must be re-run periodically to capture emerging technologies (e.g., LLMs, Generative AI).
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-icon-col"><i class="fa-solid fa-spell-check text-warning"></i></div>
+                                <div>
+                                    <strong>Synonym & Terminology Match:</strong> Different educational institutions use varying titles for identical concepts (e.g., "Deep Neural Architectures" vs "Deep Learning").
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-icon-col"><i class="fa-solid fa-users-slash text-warning"></i></div>
+                                <div>
+                                    <strong>Soft Skills Gap:</strong> The mapper is optimized for technical skills (tools, programming languages, algorithms) and may not fully evaluate soft skills like communication or leadership.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>&copy; 2026 AI Education Gap Mapper Project. Built for Educational Curriculum Optimization.</p>
+    </footer>
+
+    <!-- Dashboard Javascript -->
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

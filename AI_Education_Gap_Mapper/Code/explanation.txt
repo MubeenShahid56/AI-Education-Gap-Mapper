@@ -1,0 +1,32 @@
+Run Script
+
+File: PAI Project/Code/run.py
+Purpose: Ensures the app runs inside the project's virtual environment and starts the Flask server by importing `app` and calling `app.app.run(...)`.
+Key libraries: subprocess (relaunches the interpreter inside .venv if needed), sys and os (detect environment and paths).
+Why: Running inside the virtualenv guarantees the correct Python interpreter and installed packages for the web dashboard.
+
+Model Pipeline
+
+File: PAI Project/Code/model.py
+Overall behavior: Loads filtered job-skill data (ai_job_skills.csv), assigns a domain label via categorize_job(), cleans skill strings into text, vectorizes with TF-IDF, trains multiple classifiers, evaluates them, saves the best model + vectorizer + metrics, and extracts top skills per domain to JSON files.
+
+Key libraries and roles:
+- pandas, numpy: data loading and manipulation.
+- pickle, json, os: persist model artifacts and outputs.
+- sklearn.feature_extraction.TfidfVectorizer: converts skills text into numeric features (TF-IDF weighting, max_features=5000, sublinear_tf=True).
+- sklearn.model_selection.train_test_split: creates stratified train/test splits.
+- Classifiers: MultinomialNB, DecisionTreeClassifier, RandomForestClassifier.
+- sklearn.metrics: accuracy, precision/recall/F1, full classification reports.
+
+Why these choices (short):
+- TF-IDF: appropriate for sparse text-like features (skills list treated as bag-of-words); sublinear TF reduces impact of very frequent terms.
+- MultinomialNB: fast, simple baseline for discrete text features; performs well on bag-of-words when conditional independence approximations hold.
+- Decision Tree: interpretable single-tree model to inspect decision paths; useful as a contrast to simpler and ensemble models.
+- Random Forest: ensemble of trees that reduces variance and overfitting, often giving robust best-performing results for heterogeneous feature sets — hence chosen as a likely best model and saved when it wins by weighted F1.
+- Stratified split & weighted metrics: ensure class balance and metric aggregation appropriate for imbalanced domain classes.
+
+Outputs and purpose: The script saves models/best_model.pkl, models/vectorizer.pkl, models/metrics.json, and models/domain_skills.json so the Flask dashboard (app.py) can load the model, show evaluation metrics, and display top skills per domain for users.
+
+Next steps (optional):
+- Add a README snippet describing how to run the server and retrain models.
+- Run train_and_evaluate() locally to generate the model artifacts and verify saved outputs.
